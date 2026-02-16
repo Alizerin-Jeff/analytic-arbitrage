@@ -23,7 +23,7 @@ Both methods converge to the same answer. The closed-form solution is orders of 
 
 ## The Formula
 
-$$x_{\text{optimal}} = \frac{\sqrt{a b c d k^4 (bk + d)^2} - a d k (bk + d)}{k^2 (bk + d)^2}$$
+$$x_{\text{optimal}} = \frac{k\sqrt{abcd} - ad}{k(bk + d)}$$
 
 where $a, b$ are the reserves of Pool A, $c, d$ are the reserves of Pool B, and $k = 1 - \text{fee}$ (e.g., $k = 0.997$ for the standard 0.3% Uniswap V2 fee).
 
