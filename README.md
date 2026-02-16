@@ -16,10 +16,10 @@ Using real SHIB/ETH reserve data from Uniswap V2 pools on Ethereum:
 
 | Method | Optimal x | Profit | Time | Iterations |
 |---|---|---|---|---|
-| Binary Search | 7.921088 | 0.015955 | ~200 μs | ~40 |
-| Closed-Form | 7.921088 | 0.015955 | ~3 μs | 0 |
+| Binary Search | 7.921088 | 0.015955 | ~190 μs | ~53 |
+| Closed-Form | 7.921088 | 0.015955 | ~145 μs | 0 |
 
-Both methods converge to the same answer. The closed-form solution is orders of magnitude faster and deterministic which is important for gas-sensitive on-chain contexts.
+Both methods converge to the same answer. The closed-form solution is faster and deterministic which is important for gas-sensitive on-chain contexts.
 
 ## The Formula
 
