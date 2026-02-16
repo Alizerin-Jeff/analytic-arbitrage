@@ -38,4 +38,4 @@ jupyter notebook optimal_arbitrage.ipynb
 
 ## Medium Writeup
 
-*[Link coming soon]*
+[*[Optimal DEX Arbitrage]*](https://medium.com/@jeffreyhartigan/deriving-a-closed-form-solution-for-optimal-dex-arbitrage-b7c917bbe3e7)
