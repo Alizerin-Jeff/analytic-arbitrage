@@ -70,8 +70,8 @@ jupyter notebook
 
 ### Notebooks
 
-- **`optimal_arbitrage.ipynb`** — Single-hop derivation and benchmarks
-- **`multi_hop.ipynb`** — Multi-hop generalization via Möbius transforms, binary search comparison, and GPU batch analysis
+- **`optimal_arbitrage.ipynb`** - Single-hop derivation and benchmarks
+- **`multi_hop.ipynb`** - Multi-hop generalization via Möbius transforms, binary search comparison, and GPU batch analysis
 
 ### GPU Batch Analysis (Optional)
 
