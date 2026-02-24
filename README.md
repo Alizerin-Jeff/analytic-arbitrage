@@ -86,4 +86,4 @@ On Apple Silicon Macs, the MPS backend provides native GPU acceleration.
 ## Medium Writeups
 
 - [Part 1: Deriving a Closed-Form Solution for Optimal DEX Arbitrage](https://medium.com/@jeffreyhartigan/deriving-a-closed-form-solution-for-optimal-dex-arbitrage-b7c917bbe3e7)
-- Part 2: Generalizing to N-Hop Paths via Möbius Transformations (coming soon)
+- [Part 2: Generalizing to N-Hop Paths via Möbius Transformations](https://medium.com/@jeffreyhartigan/the-geometry-of-arbitrage-generalizing-multi-hop-dex-paths-via-möbius-transformations-b56f992b01cd)
