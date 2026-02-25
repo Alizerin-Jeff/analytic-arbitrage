@@ -16,8 +16,6 @@ It all started with a literal back-of-the-envelope calculation.
 
 I was doodling on the back of an envelope, manually working out the input-output function for a 4-hop route. I wasn't trying to solve for $x$ yet; I just wanted to see the shape of the function. I noticed an interesting continued fraction structure forming.  
 
-[Insert Envelope Photo Here]
-
 As I chained the swaps together, I noticed the fractions weren't getting messier. They were simplifying. No matter how many pools I added, the resulting transfer function always collapsed into the same form:
 
 $$l(x) = \frac{Kx}{M + Nx}$$
