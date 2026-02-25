@@ -34,8 +34,6 @@ You don't need to simulate the trade hop-by-hop. You can mathematically collapse
 
 ### The Math: AMMs as Matrices
 
-[Insert Multi-hop Diagram Here]
-
 A standard constant product swap with input reserve $r$, output reserve $s$, and fee factor $f$ maps an input $x$ to an output via:
 
 $$\text{output} = \frac{s \cdot f \cdot x}{r + f \cdot x}$$
