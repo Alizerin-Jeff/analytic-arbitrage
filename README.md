@@ -2,6 +2,8 @@
 
 Exact analytic formulas for computing the profit-maximizing trade size in arbitrage across Uniswap V2-style constant product liquidity pools — from single-hop (2 pools) to arbitrary n-hop circular paths.
 
+See formal writeup here: [Geometry Of Arbitrage](https://github.com/Alizerin-Jeff/analytic-arbitrage/blob/main/Geometry_of_Arbitrage.pdf)
+
 ## Overview
 
 When AMM pools along a trading path have price discrepancies, an arbitrage opportunity exists. The central problem is determining the **optimal input amount** that maximizes profit after fees.
