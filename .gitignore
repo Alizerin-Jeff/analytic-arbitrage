@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .env
 .venv
+.DS_Store
+env_calc.png
+medium_writeup.md
+mobius_cover.jpeg
+x_opt.png
