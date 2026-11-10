@@ -101,7 +101,9 @@ The multi-hop notebook includes a PyTorch section for evaluating many candidate 
 pip install torch
 ```
 
-The batch section uses the $(A, B)$ recurrence, compares CPU and GPU at matched float32 precision, and includes a batched Newton baseline on the same device. On Apple Silicon Macs the MPS backend provides GPU acceleration (float32 only).
+The batch section uses the $(A, B)$ recurrence, compares CPU and GPU at matched float32 precision, and includes a batched Newton baseline on the same device. On Apple Silicon Macs the MPS backend runs the batch on the GPU (float32 only).
+
+Measured on an Apple Silicon Mac with 5-hop cycles: the closed form is 12 to 26 times faster than batched Newton on the same device, which is the gain from removing iteration. The GPU itself adds little at matched precision. It is slower than the CPU below about a million cycles and about 1.4 times faster at one million.
 
 ## Prior Work
 
